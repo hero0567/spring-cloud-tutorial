@@ -5,8 +5,8 @@ import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @Author: Leo
- * @Blog: http://blog.csdn.net/lc0817
+ * @Author: Levy
+ *  
  * @CreateTime: 2017/6/2 17:41
  * @Description:
  */

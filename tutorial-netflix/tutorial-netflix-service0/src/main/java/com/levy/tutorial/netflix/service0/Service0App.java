@@ -8,8 +8,8 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 
 /**
- * @Author: Leo
- * @Blog: http://blog.csdn.net/lc0817
+ * @Author: Levy
+ *  
  * @CreateTime: 2017/6/2 15:01
  * @Description:
  */

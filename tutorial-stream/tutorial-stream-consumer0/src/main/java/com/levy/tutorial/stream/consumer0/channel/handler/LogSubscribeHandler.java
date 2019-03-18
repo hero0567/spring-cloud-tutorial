@@ -6,8 +6,8 @@ import com.levy.tutorial.stream.common.entity.dto.LogInfoDTO;
 import com.levy.tutorial.stream.consumer0.channel.LogSubscribeChannel;
 
 /**
- * @Author: Leo
- * @Blog: http://blog.csdn.net/lc0817
+ * @Author: Levy
+ *  
  * @CreateTime: 2017/6/9 11:35
  * @Description:
  */

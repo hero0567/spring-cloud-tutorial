@@ -13,8 +13,8 @@ import org.springframework.context.annotation.Bean;
 import java.lang.reflect.Method;
 
 /**
- * @Author: Leo
- * @Blog: http://blog.csdn.net/lc0817
+ * @Author: Levy
+ *  
  * @CreateTime: 2017/6/5 17:48
  * @Description: 不需要加 @Configuration
  */

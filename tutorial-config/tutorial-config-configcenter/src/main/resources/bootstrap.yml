@@ -5,7 +5,8 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///E:/workspace/spring-cloud-tutorial/tutorial-config/tutorial-config-configcenter/src/main/resources/config
+          #search-locations: file:///E:/workspace/spring-cloud-tutorial/tutorial-config/tutorial-config-configcenter/src/main/resources/config
+          search-locations: classpath:config/
   application:
     name: config-center
   profiles:
