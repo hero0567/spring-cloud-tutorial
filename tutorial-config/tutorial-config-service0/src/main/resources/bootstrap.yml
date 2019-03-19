@@ -16,3 +16,6 @@ spring:
       fail-fast: true # 如果连接配置中心出错,则中断程序
       username: test
       password: test
+
+gw:
+  adress: 127.0.0.1
