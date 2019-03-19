@@ -10,6 +10,10 @@ spring:
   profiles:
     active: native #测试环境下,不使用git管理配置文件
 
+management:
+  security:
+    enabled: false #是否开启actuator安全认证  refresh post的认证
+
 security: #加密配置
   user:
     name: test
