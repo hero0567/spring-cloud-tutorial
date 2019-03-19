@@ -1,23 +1,16 @@
+server:
+  port: 9999
 spring:
-  profiles:
-    active: native #测试环境下,不使用git管理配置文件
   cloud:
     config:
       server:
         native:
           #search-locations: file:///E:/workspace/spring-cloud-tutorial/tutorial-config/tutorial-config-configcenter/src/main/resources/config
           search-locations: classpath:config/
-    stream:
-      kafka:
-        binder:
-          brokers: 192.168.1.159:9000,192.168.1.159:9001,192.168.1.159:9002
-          zkNodes: 192.168.1.90:2181
-server:
-  port: 9999
+  profiles:
+    active: native #测试环境下,不使用git管理配置文件
+
 security: #加密配置
   user:
     name: test
     password: test
-management:
-  security:
-    enabled: false

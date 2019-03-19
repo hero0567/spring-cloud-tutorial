@@ -11,6 +11,7 @@
 
     <modules>
         <module>tutorial-config-configcenter</module>
+        <module>tutorial-config-configcenter-withoutregistry</module>
         <module>tutorial-config-service0</module>
         <module>tutorial-config-registry</module>
     </modules>

@@ -1,4 +1,4 @@
-package com.levy.tutorial.config.configcenter;
+package com.levy.tutorial.config.configcenter.withoutregistry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
